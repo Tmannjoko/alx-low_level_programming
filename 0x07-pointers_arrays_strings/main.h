@@ -1,7 +1,7 @@
 #ifndef FILE_MAIN
 #define FILE_MAIN
 char *_memset(char *s, char b, unsigned int n);
-char *_memcpy(char *dest, char src, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 unsigned int _strpn(char *s, char *accept);
 char *_strbrk(char *s, char *accept);
